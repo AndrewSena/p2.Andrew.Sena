@@ -36,7 +36,7 @@ function preload(){
     textsTable = loadTable("Texts.csv", "csv", "header");
 
     weightTable = new p5.Table();
-    weightTable = loadTable("Weight.csv", "csv");
+    weightTable = loadTable("weight.csv", "csv");
 }
 
 function setup(){
